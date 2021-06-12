@@ -35,3 +35,7 @@ class Ciclos:
         while carro not in ("a", "e", "i", "o", "u"):
             carro = input("Vuelva a ingresar una vocal: ").lower()
         print('Felicidades, el caracter "{}" es una vocal...'.format(carro))
+
+
+cicl1 = Ciclos()
+cicl1.usoWhile()
