@@ -14,3 +14,12 @@ class Condicion:
             print("El numero1: {} es igual al numero3: {}.".format(self.numero1, self.numero3))
         else:
             print("Estos números no son iguales.")
+
+
+# cond1 = Condicion()
+# print(cond1.numero1)
+# print(cond1.numero2)
+
+cond2 = Condicion(50, 50)
+cond2.usoIf()
+print(cond2.numero1)
